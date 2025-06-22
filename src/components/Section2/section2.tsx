@@ -13,12 +13,14 @@ const Section2 = () => {
   return (
     <>
       <BrandsList />
-      <div className="wrapper">
-        <img src={image1} alt={`large-image`} style={{ height: "500px" }} />
+      <div className="section2-wrapper">
+        <div>
+          <img src={image1} alt={`large-image`} style={{ height: "440px" }} />
+        </div>
         <div className="image-container">
           {images?.map((item, index) => {
             return (
-              <div>
+              <div style={{ flex: "1 1 50%" }}>
                 <img
                   className="product-image"
                   src={item}

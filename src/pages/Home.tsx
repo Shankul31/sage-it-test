@@ -7,14 +7,12 @@ import "./home.css";
 const Home = () => {
   return (
     <>
-      <div className="home-container">
+      <div className="section1-container">
         <Header />
-        <div className="section1-container">
-          <Section1 />
-        </div>
-        <div className="section2-container">
-          <Section2 />
-        </div>
+        <Section1 />
+      </div>
+      <div className="section2-container">
+        <Section2 />
       </div>
     </>
   );

@@ -1,15 +1,21 @@
 .product-image {
-  height: 220px;
+  height: 210px;
 }
 
-.wrapper {
+.section2-wrapper {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: white;
-  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hiden;
+  gap: 10px;
 }
 
 .image-container {
   display: grid;
   grid-template-columns: auto auto;
+  gap: 10px;
 }

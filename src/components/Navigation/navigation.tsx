@@ -1,13 +1,7 @@
+import { useSelector } from "react-redux";
+
 const Navigation = () => {
-  const navigationItems = [
-    { title: "Jewelry & Accessories", value: "" },
-    { title: "Clothing & Shoes", value: "" },
-    { title: "Home & Living", value: "" },
-    { title: "Wedding & Party", value: "" },
-    { title: "Toys & Entertainment", value: "" },
-    { title: "Art & Collectibles", value: "" },
-    { title: "Craft Supplies & Tools", value: "" },
-  ];
+  const { navigationItems } = useSelector((state) => state.products);
   return (
     <div
       style={{
@@ -15,7 +9,7 @@ const Navigation = () => {
         flexDirection: "row",
         justifyContent: "center",
         alignItems: "center",
-        gap: "20px",
+        gap: "35px",
         marginBottom: "12px",
       }}
     >
