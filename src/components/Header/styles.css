@@ -1,0 +1,12 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.right-container {
+  display: flex;
+  gap: 12px;
+  position: relative;
+  /* left: -120px; */
+}
